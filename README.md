@@ -8,12 +8,12 @@ Alchemically light theme with minimalistic syntax highlighting.
 
 - Background – #CCCCCC
 - Foreground – #000000
-- String background - #91BFA3, foreground – #000000
-- Number background – #95ACD6, foreground – #000000
-- Built-in constants (boolean, keywords, etc.) background – #BA9BC2, foreground – #000000
+- String background - #91BFA3
+- Number background – #95ACD6
+- Built-in constants (boolean, keywords, etc.) background – #BA9BC2
 - Selection background – #B8B8B8
-- Search match – #FFE100
-- Current search match – #FFFFFF
+- Search match – #FFEE00 
+- Current search match – #BDB000 
 
 ## Credit
 

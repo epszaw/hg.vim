@@ -7,10 +7,13 @@ Alchemically light theme with minimalistic syntax highlighting.
 ## Color tokens
 
 - Background – #CCCCCC
-- Foreground – #292929
+- Foreground – #000000
 - String background - #91BFA3, foreground – #000000
-- Number background – #97AFC7, foreground – #000000
+- Number background – #95ACD6, foreground – #000000
 - Built-in constants (boolean, keywords, etc.) background – #BA9BC2, foreground – #000000
+- Selection background – #B8B8B8
+- Search match – #FFE100
+- Current search match – #FFFFFF
 
 ## Credit
 

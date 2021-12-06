@@ -3,7 +3,7 @@
 > C☿lor scheme for pure alchemists 
 
 <p align="center">
-  <img src="./static/intro.jpg" width="800px" />
+  <img src="./static/intro.jpg" width="600px" />
 </p>
 
 Alchemically light theme with minimalistic syntax highlighting.
@@ -15,6 +15,7 @@ Alchemically light theme with minimalistic syntax highlighting.
 - String background – #91BFA3
 - Number background – #95ACD6
 - Built-in constants (boolean, keywords, etc.) background – #BA9BC2
+- Comments foreground - #787878
 - Selection background – #B8B8B8
 - Search match – #FFEE00, with current match – #DBA100 
 - Current search match – #FFEE00 

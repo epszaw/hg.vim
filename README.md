@@ -1,12 +1,8 @@
 # Hg [WIP]
 
-> C☿lor scheme for pure alchemists 
-
 <p align="center">
   <img src="./static/intro.jpg" width="600px" />
 </p>
-
-Alchemically light theme with minimalistic syntax highlighting.
 
 ## Color tokens
 

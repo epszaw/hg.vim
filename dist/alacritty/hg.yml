@@ -1,0 +1,26 @@
+# Colors (Hg)
+colors:
+  primary:
+    background: '#cccccc'
+    foreground: '#000000'
+  cursor:
+    cursor: '#000000'
+    text: '#787878'
+  normal:
+    black: '#000000'
+    blue: '#000000'
+    cyan: '#000000'
+    green: '#10853F'
+    magenta: '#000000'
+    red: '#A32D2D'
+    white: '#000000'
+    yellow: '#B8B8B8'
+  bright:
+    black: '#000000'
+    blue: '#000000'
+    cyan: '#000000'
+    green: '#10853F'
+    magenta: '#000000'
+    red: '#A32D2D'
+    white: '#000000'
+    yellow: '#B8B8B8'

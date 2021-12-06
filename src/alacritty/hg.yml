@@ -1,0 +1,26 @@
+# Colors (Hg)
+colors:
+  primary:
+    background: '{{bg.common}}'
+    foreground: '{{fg.common}}'
+  cursor:
+    cursor: '{{fg.common}}'
+    text: '{{fg.comment}}'
+  normal:
+    black: '{{fg.common}}'
+    blue: '{{fg.common}}'
+    cyan: '{{fg.common}}'
+    green: '{{fg.green}}'
+    magenta: '{{fg.common}}'
+    red: '{{fg.red}}'
+    white: '{{fg.common}}'
+    yellow: '{{bg.selection}}'
+  bright:
+    black: '{{fg.common}}'
+    blue: '{{fg.common}}'
+    cyan: '{{fg.common}}'
+    green: '{{fg.green}}'
+    magenta: '{{fg.common}}'
+    red: '{{fg.red}}'
+    white: '{{fg.common}}'
+    yellow: '{{bg.selection}}'

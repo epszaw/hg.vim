@@ -1,11 +1,13 @@
 bg: 
+  # TODO: probably better to rename tokens by true names and annotate by comments
   common: '#cccccc'
   string: '#91BFA3'
   number: '#95ACD6'
   constant: '#BA9BC2'
-  selection: '#B8B8B8'
+  selection: '#999999'
   match: '#FFEE00'
   rest_matches: '#DBA100'
+  current_line: '#BDBDBD'
 
 fg:
   green: '#10853F'

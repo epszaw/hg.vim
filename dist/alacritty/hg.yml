@@ -6,6 +6,13 @@ colors:
   cursor:
     cursor: '#000000'
     text: '#787878'
+  search:
+    matches:
+      foreground: '#000000'
+      background: '#DBA100'
+    focused_match:
+      foreground: '#000000'
+      background: '#FFEE00'
   normal:
     black: '#000000'
     blue: '#000000'
@@ -14,7 +21,7 @@ colors:
     magenta: '#000000'
     red: '#A32D2D'
     white: '#000000'
-    yellow: '#B8B8B8'
+    yellow: '#999999'
   bright:
     black: '#000000'
     blue: '#000000'
@@ -23,4 +30,4 @@ colors:
     magenta: '#000000'
     red: '#A32D2D'
     white: '#000000'
-    yellow: '#B8B8B8'
+    yellow: '#999999'

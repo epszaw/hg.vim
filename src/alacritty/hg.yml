@@ -6,6 +6,13 @@ colors:
   cursor:
     cursor: '{{fg.common}}'
     text: '{{fg.comment}}'
+  search:
+    matches:
+      foreground: '{{fg.common}}'
+      background: '{{bg.rest_matches}}'
+    focused_match:
+      foreground: '{{fg.common}}'
+      background: '{{bg.match}}'
   normal:
     black: '{{fg.common}}'
     blue: '{{fg.common}}'

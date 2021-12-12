@@ -18,7 +18,7 @@ hi CursorLine cterm=NONE ctermbg=253 ctermfg=NONE guibg=#BDBDBD guifg=NONE
 hi Comment ctermfg=244 guifg=#787878
 hi Conceal ctermbg=254 ctermfg=244 guibg=#cccccc guifg=#8389a3
 hi Constant ctermfg=97 guifg=#000000 guibg=#BA9BC2
-hi Number ctermfg=97 guifg=#000000 guibg=#95ACD6
+hi Number ctermfg=97 guifg=#476AAB
 hi Cursor ctermbg=237 ctermfg=254 guibg=#000000 guifg=#cccccc
 hi CursorLineNr cterm=NONE ctermbg=251 ctermfg=237 guibg= guifg=
 hi Delimiter ctermfg=237 guifg=#000000

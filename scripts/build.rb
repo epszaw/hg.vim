@@ -13,7 +13,11 @@ raw_tokens = File.read('./tokens.yml')
 tokens = YAML.load(raw_tokens)
 
 src_files.each do |file|
-  theme_file = Mustache.render(file[:source], fg: tokens['fg'], bg: tokens['bg'])
+  theme_file = Mustache.render(
+    file[:source], fg: tokens['fg'], bg: tokens['bg'],
+    grey: tokens['grey'], red: tokens['red'], blue: tokens['blue'], 
+    green: tokens['green'], yellow: tokens['yellow'],
+  )
   theme_path = file[:path].gsub(/src/, 'dist')
   theme_dirname = File.dirname(theme_path)
 

@@ -18,7 +18,7 @@ hi CursorLine cterm=NONE ctermbg=253 ctermfg=NONE guibg={{ bg.current_line }} gu
 hi Comment ctermfg=244 guifg={{ fg.comment }}
 hi Conceal ctermbg=254 ctermfg=244 guibg={{ bg.common }} guifg=#8389a3
 hi Constant ctermfg=97 guifg={{ fg.common }} guibg={{ bg.constant }}
-hi Number ctermfg=97 guifg={{ fg.common }} guibg={{ bg.number }}
+hi Number ctermfg=97 guifg={{ blue.dark }}
 hi Cursor ctermbg=237 ctermfg=254 guibg={{ fg.common }} guifg={{ bg.common }}
 hi CursorLineNr cterm=NONE ctermbg=251 ctermfg=237 guibg={{ fg.selection }} guifg={{ bg.comment }}
 hi Delimiter ctermfg=237 guifg={{ fg.common }}

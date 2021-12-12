@@ -4,11 +4,11 @@
 -- https://gist.github.com/shadmansaleh/000871c9a608a012721c6acc6d7a19b9
 -- stylua: ignore
 local colors = {
-  color5   = '{{ bg.selection }}',
-  color8   = '{{ bg.selection }}',
-  color9   = '{{ fg.comment }}',
+  color5   = '{{ grey.dark1 }}',
+  color8   = '{{ grey.dark1 }}',
+  color9   = '{{ grey.dark3 }}',
   color10  = '{{ bg.current_line }}',
-  color11  = '{{ bg.string }}',
+  color11  = '{{ green.normal }}',
   color0   = '{{ fg.current_line }}',
   color1   = '{{ bg.current_line }}',
   color2   = '{{ bg.constant }}',

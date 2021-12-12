@@ -4,11 +4,11 @@
 -- https://gist.github.com/shadmansaleh/000871c9a608a012721c6acc6d7a19b9
 -- stylua: ignore
 local colors = {
-  color5   = '#999999',
-  color8   = '#999999',
-  color9   = '#787878',
+  color5   = '#B8B8B8',
+  color8   = '#B8B8B8',
+  color9   = '#767676',
   color10  = '#BDBDBD',
-  color11  = '#91BFA3',
+  color11  = '#62B884',
   color0   = '',
   color1   = '#BDBDBD',
   color2   = '#BA9BC2',

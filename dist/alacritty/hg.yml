@@ -3,31 +3,21 @@ colors:
   primary:
     background: '#CCCCCC'
     foreground: '#000000'
-  cursor:
-    cursor: '#000000'
-    text: '#9B9B9B'
-  search:
-    matches:
-      foreground: '#FFE8C5'
-      background: '#000000'
-    focused_match:
-      foreground: '#000000'
-      background: '#FFE8C5'
   normal:
     black: '#000000'
-    blue: '#476AAB'
+    blue: '#32425F'
     cyan: '#000000'
     green: '#3E654D'
     magenta: '#000000'
     red: '#9A3E3E'
     white: '#000000'
-    yellow: '#C7A97C'
+    yellow: '#767676'
   bright:
     black: '#000000'
-    blue: '#476AAB'
+    blue: '#32425F'
     cyan: '#000000'
     green: '#3E654D'
     magenta: '#000000'
     red: '#9A3E3E'
     white: '#000000'
-    yellow: '#C7A97C'
+    yellow: '#767676'

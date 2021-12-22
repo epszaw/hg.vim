@@ -26,5 +26,5 @@ set -g window-status-separator ""
 set -g pane-active-border-style "fg={{ grey.dark5}}"
 set -g pane-border-style "fg={{ grey.dark5}}"
 
-set -g message-bg "{{grey.dark4}}"
+set -g message-bg "{{grey.dark3}}"
 set -g message-fg "{{grey.light2}}"

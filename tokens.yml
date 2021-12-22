@@ -27,18 +27,18 @@ grey:
   light1: '#D6D6D6'
   light2: '#DDDDDD'
 blue:
-  dark: '#476AAB'
-  normal: '#7FA0DD'
+  dark: '#32425F'
+  normal: '#476AAB'
   light: '#98B2E2'
 green:
-  dark: '#3E654D'
-  normal: '#62B884'
-  light: '#85CDA1'
+  dark: '#19482B'
+  normal: '#3E654D'
+  light: '#9DC0AB'
 red:
-  dark: '#9A3E3E'
-  normal: '#E56767'
-  light: '#F48D8D'
+  dark: '#530909'
+  normal: '#9A3E3E'
+  light: '#FAA6A6'
 yellow:
-  dark: '#C7A97C'
-  normal: '#EFD2A5'
+  dark: '#5F4622'
+  normal: '#C7A97C'
   light: '#FFE8C5'

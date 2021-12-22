@@ -26,5 +26,5 @@ set -g window-status-separator ""
 set -g pane-active-border-style "fg=#000000"
 set -g pane-border-style "fg=#000000"
 
-set -g message-bg "#555555"
+set -g message-bg "#767676"
 set -g message-fg "#DDDDDD"

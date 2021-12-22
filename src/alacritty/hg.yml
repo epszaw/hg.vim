@@ -3,31 +3,21 @@ colors:
   primary:
     background: '{{grey.normal}}'
     foreground: '{{grey.dark5}}'
-  cursor:
-    cursor: '{{grey.dark5}}'
-    text: '{{grey.dark2}}'
-  search:
-    matches:
-      foreground: '{{yellow.light}}'
-      background: '{{grey.dark5}}'
-    focused_match:
-      foreground: '{{grey.dark5}}'
-      background: '{{yellow.light}}'
   normal:
     black: '{{grey.dark5}}'
     blue: '{{blue.dark}}'
     cyan: '{{grey.dark5}}'
-    green: '{{green.dark}}'
+    green: '{{green.normal}}'
     magenta: '{{grey.dark5}}'
-    red: '{{red.dark}}'
+    red: '{{red.normal}}'
     white: '{{grey.dark5}}'
-    yellow: '{{yellow.dark}}'
+    yellow: '{{grey.dark3}}'
   bright:
     black: '{{grey.dark5}}'
     blue: '{{blue.dark}}'
     cyan: '{{grey.dark5}}'
-    green: '{{green.dark}}'
+    green: '{{green.normal}}'
     magenta: '{{grey.dark5}}'
-    red: '{{red.dark}}'
+    red: '{{red.normal}}'
     white: '{{grey.dark5}}'
-    yellow: '{{yellow.dark}}'
+    yellow: '{{grey.dark3}}'

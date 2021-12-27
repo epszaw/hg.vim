@@ -1,23 +1,30 @@
 # Colors (Hg)
 colors:
+  search:
+    matches:
+      foreground: '#000000'
+      background: '#978B78'
+    focused_match:
+      foreground: '#000000'
+      background: '#FFE8C4'
   primary:
-    background: '#CCCCCC'
+    background: '#C0C0C0'
     foreground: '#000000'
   normal:
     black: '#000000'
-    blue: '#32425F'
+    blue: '#2C4A83'
     cyan: '#000000'
-    green: '#3E654D'
+    green: '#2A5B3D'
     magenta: '#000000'
     red: '#9A3E3E'
     white: '#000000'
-    yellow: '#767676'
+    yellow: '#978B78'
   bright:
     black: '#000000'
-    blue: '#32425F'
+    blue: '#2C4A83'
     cyan: '#000000'
-    green: '#3E654D'
+    green: '#2A5B3D'
     magenta: '#000000'
     red: '#9A3E3E'
     white: '#000000'
-    yellow: '#767676'
+    yellow: '#978B78'

@@ -15,73 +15,73 @@ let n = 50
 hi Normal ctermbg=254 ctermfg=237 guifg=#000000
 " hi ColorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 " hi CursorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
-hi Cursor ctermbg=237 ctermfg=254 guibg=#000000 guifg=#DDDDDD
+hi Cursor ctermbg=237 ctermfg=254 guibg=#000000 guifg=#B8B8B8
 hi CursorLineNr cterm=NONE ctermbg=251 ctermfg=237 guifg=#000000
 hi CursorLine cterm=NONE ctermbg=253 ctermfg=NONE guibg=#B8B8B8 guifg=NONE
-hi LineNr ctermbg=253 ctermfg=248 guifg=#9B9B9B
-hi Comment ctermfg=244 guifg=#767676
-hi Constant ctermfg=97 guifg=#32425F
-" hi Conceal ctermbg=254 ctermfg=244 guifg=#32425F
-hi Number ctermfg=97 guifg=#32425F
-hi String ctermfg=31 guibg=#9DC0AB guifg=#000000
-hi Folded ctermbg=253 ctermfg=243 guifg=#767676
-hi FoldColumn ctermbg=253 ctermfg=248 guifg=#767676
+hi LineNr ctermbg=253 ctermfg=248 guifg=#8A8A8A
+hi Comment ctermfg=244 guifg=#8A8A8A
+hi Constant ctermfg=97 guifg=#2C4A83
+" hi Conceal ctermbg=254 ctermfg=244 guifg=#2C4A83
+hi Number ctermfg=97 guifg=#2C4A83
+hi String ctermfg=31 guibg=#9BB8A7 guifg=#000000
+hi Folded ctermbg=253 ctermfg=243 guibg=#C0C0C0 guifg=#8A8A8A
+hi FoldColumn ctermbg=253 ctermfg=248 guifg=#8A8A8A
 hi Directory ctermfg=31 guifg=#000000
-hi Function ctermfg=25 guibg=#98B2E2 guifg=#000000
-hi Search ctermbg=180 ctermfg=94 guibg=#FFE8C5 guifg=#000000
-hi DiffAdd ctermbg=79 ctermfg=23 guifg=#3E654D
+hi Function ctermfg=25 guifg=#2C4A83
+hi Search ctermbg=180 ctermfg=94 guibg=#FFE8C4 guifg=#000000
+hi DiffAdd ctermbg=79 ctermfg=23 guifg=#9BB8A7
 hi DiffChange ctermbg=116 ctermfg=24 guifg=#000000
-hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guifg=#530909
+hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guifg=#FAA6A6
 " hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg=#000000
-hi diffAdded ctermfg=64 guibg=#9DC0AB guifg=#000000
+hi diffAdded ctermfg=64 guibg=#9BB8A7 guifg=#000000
 hi diffRemoved ctermfg=125 guibg=#FAA6A6 guifg=#000000
-hi GitGutterAdd ctermbg=253 ctermfg=64 guifg=#3E654D
+hi GitGutterAdd ctermbg=253 ctermfg=64 guifg=#2A5B3D
 hi GitGutterChange ctermbg=253 ctermfg=31 guifg=#000000
 hi GitGutterChangeDelete ctermbg=253 ctermfg=31 guifg=#9A3E3E
 hi GitGutterDelete ctermbg=253 ctermfg=125 guifg=#9A3E3E
 hi Identifier cterm=NONE ctermfg=31 guifg=#000000
-hi EasyMotionShade ctermfg=250 guifg=#767676
-hi EasyMotionTarget ctermfg=64 guifg=#000000 guibg=#FFE8C5
+hi EasyMotionShade ctermfg=250 guifg=#8A8A8A
+hi EasyMotionTarget ctermfg=64 guifg=#000000 guibg=#FFE8C4
 " hi EasyMotionTarget2First ctermfg=130 guifg=#c57339
 " hi EasyMotionTarget2Second ctermfg=130 guifg=#c57339
-hi Error ctermbg=254 ctermfg=125 guibg=#CCCCCC guifg=#530909
-hi ErrorMsg ctermbg=254 ctermfg=125 guibg=#CCCCCC guifg=#530909
-hi WarningMsg ctermbg=254 ctermfg=125 guibg=#FFE8C5 guifg=#000000
-hi ALEErrorSign ctermbg=253 ctermfg=125 guifg=#530909
-hi ALEWarningSign ctermbg=253 ctermfg=130 guifg=#C7A97C
-hi ALEVirtualTextError ctermfg=125 guifg=#530909
-hi ALEVirtualTextWarning ctermfg=130 guifg=#C7A97C
-hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg=#B8B8B8 guifg=#767676
-hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#B8B8B8 guifg=#B8B8B8
-hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg=#CCCCCC guifg=#000000
+hi Error ctermbg=254 ctermfg=125 guibg=#C0C0C0 guifg=#9A3E3E
+hi ErrorMsg ctermbg=254 ctermfg=125 guibg=#C0C0C0 guifg=#9A3E3E
+hi WarningMsg ctermbg=254 ctermfg=125 guibg=#FFE8C4 guifg=#000000
+hi ALEErrorSign ctermbg=253 ctermfg=125 guifg=#9A3E3E
+hi ALEWarningSign ctermbg=253 ctermfg=130 guifg=#978B78
+hi ALEVirtualTextError ctermfg=125 guifg=#9A3E3E
+hi ALEVirtualTextWarning ctermfg=130 guifg=#978B78
+hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg=#AAAAAA guifg=#8A8A8A
+hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#AAAAAA guifg=#8A8A8A
+hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg=#C0C0C0 guifg=#000000
 hi Delimiter ctermfg=237 guifg=#000000
-hi EndOfBuffer ctermfg=251 guifg=#CCCCCC
-hi NonText ctermfg=251 guifg=#B8B8B8
-hi Whitespace ctermfg=251 guifg=#B8B8B8
+hi EndOfBuffer ctermfg=251 guifg=#B8B8B8
+hi NonText ctermfg=251 guifg=#8A8A8A
+hi Whitespace ctermfg=251 guifg=#8A8A8A
 hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 hi Include ctermfg=25 guifg=#000000
 hi IncSearch cterm=reverse ctermfg=NONE gui=reverse guifg=NONE term=reverse
-hi MatchParen ctermbg=250 ctermfg=0 guibg=#9B9B9B guifg=#000000
+hi MatchParen ctermbg=250 ctermfg=0 guibg=#AAAAAA guifg=#000000
 hi ModeMsg ctermfg=244 guifg=#000000
-hi Pmenu ctermbg=251 ctermfg=237 guibg=#B8B8B8 guifg=#000000
-hi PmenuSbar ctermbg=251 ctermfg=NONE guibg=#CCCCCC guifg=NONE
-hi PmenuSel ctermbg=248 ctermfg=235 guibg=#9B9B9B guifg=#000000
+hi Pmenu ctermbg=251 ctermfg=237 guibg=#AAAAAA guifg=#000000
+hi PmenuSbar ctermbg=251 ctermfg=NONE guibg=#AAAAAA guifg=NONE
+hi PmenuSel ctermbg=248 ctermfg=235 guibg=#8A8A8A guifg=#000000
 hi PmenuThumb ctermbg=237 ctermfg=NONE guibg=#000000 guifg=NONE
 hi Underlined cterm=underline ctermfg=25 gui=underline guifg=#000000 term=underline
-hi Visual ctermbg=251 ctermfg=NONE guibg=#9B9B9B guifg=NONE
+hi Visual ctermbg=251 ctermfg=NONE guibg=#AAAAAA guifg=NONE
 hi SpellCap ctermbg=117 ctermfg=237 gui=undercurl guifg=NONE guisp=#000000
 hi SpellLocal ctermbg=116 ctermfg=237 gui=undercurl guifg=NONE guisp=#000000
-hi SignColumn ctermbg=253 ctermfg=248 guibg=#CCCCCC guifg=#767676
-hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#9B9B9B
-hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#9B9B9B
-hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg=#CCCCCC guifg=#9B9B9B
-hi VisualNOS ctermbg=251 ctermfg=NONE guibg=#9B9B9B guifg=NONE
-hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#9B9B9B guifg=#000000 term=reverse
-hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#9B9B9B guifg=#000000 term=reverse
-hi TermCursorNC ctermbg=244 ctermfg=254 guibg=#000000 guifg=#CCCCCC
+hi SignColumn ctermbg=253 ctermfg=248 guibg=#C0C0C0 guifg=#000000
+hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#8A8A8A
+hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#8A8A8A
+hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg=#C0C0C0 guifg=#8A8A8A
+" hi VisualNOS ctermbg=251 ctermfg=NONE guibg= guifg=NONE
+hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#B8B8B8 guifg=#000000 term=reverse
+hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#B8B8B8 guifg=#000000 term=reverse
+hi TermCursorNC ctermbg=244 ctermfg=254 guibg=#000000 guifg=#C0C0C0
 
 " hi SpecialKey ctermfg=248 guifg=#a5b0d3
-" hi SpellBad ctermbg=181 ctermfg=237 gui=undercurl guifg=NONE guisp=#530909
+" hi SpellBad ctermbg=181 ctermfg=237 gui=undercurl guifg=NONE guisp=
 " hi SpellRare ctermbg=110 ctermfg=237 gui=undercurl guifg=NONE guisp=#7759b4
 
 hi! link Title Normal

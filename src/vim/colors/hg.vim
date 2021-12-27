@@ -12,73 +12,73 @@ let g:colors_name = 'hg'
 let n = 50
 
 " Ready
-hi Normal ctermbg=254 ctermfg=237 guifg={{ grey.dark5 }}
+hi Normal ctermbg=254 ctermfg=237 guifg={{ theme.grey.grey0 }}
 " hi ColorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 " hi CursorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
-hi Cursor ctermbg=237 ctermfg=254 guibg={{ grey.dark5 }} guifg={{ grey.light2 }}
-hi CursorLineNr cterm=NONE ctermbg=251 ctermfg=237 guifg={{ grey.dark5 }}
-hi CursorLine cterm=NONE ctermbg=253 ctermfg=NONE guibg={{ grey.dark1 }} guifg=NONE
-hi LineNr ctermbg=253 ctermfg=248 guifg={{ grey.dark2 }}
-hi Comment ctermfg=244 guifg={{ grey.dark3 }}
-hi Constant ctermfg=97 guifg={{ blue.dark }}
-" hi Conceal ctermbg=254 ctermfg=244 guifg={{ blue.dark }}
-hi Number ctermfg=97 guifg={{ blue.dark }}
-hi String ctermfg=31 guibg={{ green.light }} guifg={{ grey.dark5 }}
-hi Folded ctermbg=253 ctermfg=243 guifg={{ grey.dark3 }}
-hi FoldColumn ctermbg=253 ctermfg=248 guifg={{ grey.dark3 }}
-hi Directory ctermfg=31 guifg={{ grey.dark5 }}
-hi Function ctermfg=25 guibg={{ blue.light }} guifg={{ grey.dark5 }}
-hi Search ctermbg=180 ctermfg=94 guibg={{ yellow.light }} guifg={{ grey.dark5 }}
-hi DiffAdd ctermbg=79 ctermfg=23 guifg={{ green.normal }}
-hi DiffChange ctermbg=116 ctermfg=24 guifg={{ grey.dark5 }}
-hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guifg={{ red.dark }}
-" hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg={{ grey.dark5 }}
-hi diffAdded ctermfg=64 guibg={{ green.light }} guifg={{ grey.dark5 }}
-hi diffRemoved ctermfg=125 guibg={{ red.light }} guifg={{ grey.dark5 }}
-hi GitGutterAdd ctermbg=253 ctermfg=64 guifg={{ green.normal }}
-hi GitGutterChange ctermbg=253 ctermfg=31 guifg={{ grey.dark5 }}
-hi GitGutterChangeDelete ctermbg=253 ctermfg=31 guifg={{ red.normal }}
-hi GitGutterDelete ctermbg=253 ctermfg=125 guifg={{ red.normal }}
-hi Identifier cterm=NONE ctermfg=31 guifg={{ grey.dark5 }}
-hi EasyMotionShade ctermfg=250 guifg={{ grey.dark3 }}
-hi EasyMotionTarget ctermfg=64 guifg={{ grey.dark5 }} guibg={{ yellow.light }}
+hi Cursor ctermbg=237 ctermfg=254 guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey4 }}
+hi CursorLineNr cterm=NONE ctermbg=251 ctermfg=237 guifg={{ theme.grey.grey0 }}
+hi CursorLine cterm=NONE ctermbg=253 ctermfg=NONE guibg={{ theme.grey.grey4 }} guifg=NONE
+hi LineNr ctermbg=253 ctermfg=248 guifg={{ theme.grey.grey1 }}
+hi Comment ctermfg=244 guifg={{ theme.grey.grey1 }}
+hi Constant ctermfg=97 guifg={{ theme.blue.blue0 }}
+" hi Conceal ctermbg=254 ctermfg=244 guifg={{ theme.blue.blue0 }}
+hi Number ctermfg=97 guifg={{ theme.blue.blue0 }}
+hi String ctermfg=31 guibg={{ theme.green.green1 }} guifg={{ theme.grey.grey0 }}
+hi Folded ctermbg=253 ctermfg=243 guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey1 }}
+hi FoldColumn ctermbg=253 ctermfg=248 guifg={{ theme.grey.grey1 }}
+hi Directory ctermfg=31 guifg={{ theme.grey.grey0 }}
+hi Function ctermfg=25 guifg={{ theme.blue.blue0 }}
+hi Search ctermbg=180 ctermfg=94 guibg={{ theme.yellow.yellow1 }} guifg={{ theme.grey.grey0 }}
+hi DiffAdd ctermbg=79 ctermfg=23 guifg={{ theme.green.green1 }}
+hi DiffChange ctermbg=116 ctermfg=24 guifg={{ theme.grey.grey0 }}
+hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guifg={{ theme.red.red1 }}
+" hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg={{ theme.grey.grey0 }}
+hi diffAdded ctermfg=64 guibg={{ theme.green.green1 }} guifg={{ theme.grey.grey0 }}
+hi diffRemoved ctermfg=125 guibg={{ theme.red.red1 }} guifg={{ theme.grey.grey0 }}
+hi GitGutterAdd ctermbg=253 ctermfg=64 guifg={{ theme.green.green0 }}
+hi GitGutterChange ctermbg=253 ctermfg=31 guifg={{ theme.grey.grey0 }}
+hi GitGutterChangeDelete ctermbg=253 ctermfg=31 guifg={{ theme.red.red0 }}
+hi GitGutterDelete ctermbg=253 ctermfg=125 guifg={{ theme.red.red0 }}
+hi Identifier cterm=NONE ctermfg=31 guifg={{ theme.grey.grey0 }}
+hi EasyMotionShade ctermfg=250 guifg={{ theme.grey.grey1 }}
+hi EasyMotionTarget ctermfg=64 guifg={{ theme.grey.grey0 }} guibg={{ theme.yellow.yellow1 }}
 " hi EasyMotionTarget2First ctermfg=130 guifg=#c57339
 " hi EasyMotionTarget2Second ctermfg=130 guifg=#c57339
-hi Error ctermbg=254 ctermfg=125 guibg={{ grey.normal }} guifg={{ red.dark }}
-hi ErrorMsg ctermbg=254 ctermfg=125 guibg={{ grey.normal }} guifg={{ red.dark }}
-hi WarningMsg ctermbg=254 ctermfg=125 guibg={{ yellow.light }} guifg={{ grey.dark5 }}
-hi ALEErrorSign ctermbg=253 ctermfg=125 guifg={{ red.dark }}
-hi ALEWarningSign ctermbg=253 ctermfg=130 guifg={{ yellow.normal }}
-hi ALEVirtualTextError ctermfg=125 guifg={{ red.dark }}
-hi ALEVirtualTextWarning ctermfg=130 guifg={{ yellow.normal }}
-hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg={{ grey.dark1 }} guifg={{ grey.dark3 }}
-hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg={{ grey.dark1 }} guifg={{ grey.dark1 }}
-hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg={{ grey.normal }} guifg={{ grey.dark5 }}
-hi Delimiter ctermfg=237 guifg={{ grey.dark5 }}
-hi EndOfBuffer ctermfg=251 guifg={{ grey.normal }}
-hi NonText ctermfg=251 guifg={{ grey.dark1 }}
-hi Whitespace ctermfg=251 guifg={{ grey.dark1 }}
+hi Error ctermbg=254 ctermfg=125 guibg={{ theme.grey.grey3 }} guifg={{ theme.red.red0 }}
+hi ErrorMsg ctermbg=254 ctermfg=125 guibg={{ theme.grey.grey3 }} guifg={{ theme.red.red0 }}
+hi WarningMsg ctermbg=254 ctermfg=125 guibg={{ theme.yellow.yellow1 }} guifg={{ theme.grey.grey0 }}
+hi ALEErrorSign ctermbg=253 ctermfg=125 guifg={{ theme.red.red0 }}
+hi ALEWarningSign ctermbg=253 ctermfg=130 guifg={{ theme.yellow.yellow0 }}
+hi ALEVirtualTextError ctermfg=125 guifg={{ theme.red.red0 }}
+hi ALEVirtualTextWarning ctermfg=130 guifg={{ theme.yellow.yellow0 }}
+hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey1 }}
+hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey1 }}
+hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey0 }}
+hi Delimiter ctermfg=237 guifg={{ theme.grey.grey0 }}
+hi EndOfBuffer ctermfg=251 guifg={{ theme.grey.grey4 }}
+hi NonText ctermfg=251 guifg={{ theme.grey.grey1 }}
+hi Whitespace ctermfg=251 guifg={{ theme.grey.grey1 }}
 hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
-hi Include ctermfg=25 guifg={{ grey.dark5 }}
+hi Include ctermfg=25 guifg={{ theme.grey.grey0 }}
 hi IncSearch cterm=reverse ctermfg=NONE gui=reverse guifg=NONE term=reverse
-hi MatchParen ctermbg=250 ctermfg=0 guibg={{ grey.dark2 }} guifg={{ grey.dark5 }}
-hi ModeMsg ctermfg=244 guifg={{ grey.dark5 }}
-hi Pmenu ctermbg=251 ctermfg=237 guibg={{ grey.dark1 }} guifg={{ grey.dark5 }}
-hi PmenuSbar ctermbg=251 ctermfg=NONE guibg={{ grey.normal }} guifg=NONE
-hi PmenuSel ctermbg=248 ctermfg=235 guibg={{ grey.dark2 }} guifg={{ grey.dark5 }}
-hi PmenuThumb ctermbg=237 ctermfg=NONE guibg={{ grey.dark5 }} guifg=NONE
-hi Underlined cterm=underline ctermfg=25 gui=underline guifg={{ grey.dark5 }} term=underline
-hi Visual ctermbg=251 ctermfg=NONE guibg={{ grey.dark2 }} guifg=NONE
-hi SpellCap ctermbg=117 ctermfg=237 gui=undercurl guifg=NONE guisp={{ grey.dark5 }}
-hi SpellLocal ctermbg=116 ctermfg=237 gui=undercurl guifg=NONE guisp={{ grey.dark5 }}
-hi SignColumn ctermbg=253 ctermfg=248 guibg={{ grey.normal }} guifg={{ grey.dark3 }}
-hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ grey.dark2 }}
-hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ grey.dark2 }}
-hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg={{ grey.normal }} guifg={{ grey.dark2 }}
-hi VisualNOS ctermbg=251 ctermfg=NONE guibg={{ grey.dark2 }} guifg=NONE
-hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ grey.dark2 }} guifg={{ grey.dark5 }} term=reverse
-hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ grey.dark2 }} guifg={{ grey.dark5 }} term=reverse
-hi TermCursorNC ctermbg=244 ctermfg=254 guibg={{ grey.dark5 }} guifg={{ grey.normal }}
+hi MatchParen ctermbg=250 ctermfg=0 guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey0 }}
+hi ModeMsg ctermfg=244 guifg={{ theme.grey.grey0 }}
+hi Pmenu ctermbg=251 ctermfg=237 guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey0 }}
+hi PmenuSbar ctermbg=251 ctermfg=NONE guibg={{ theme.grey.grey2 }} guifg=NONE
+hi PmenuSel ctermbg=248 ctermfg=235 guibg={{ theme.grey.grey1 }} guifg={{ theme.grey.grey0 }}
+hi PmenuThumb ctermbg=237 ctermfg=NONE guibg={{ theme.grey.grey0 }} guifg=NONE
+hi Underlined cterm=underline ctermfg=25 gui=underline guifg={{ theme.grey.grey0 }} term=underline
+hi Visual ctermbg=251 ctermfg=NONE guibg={{ theme.grey.grey2 }} guifg=NONE
+hi SpellCap ctermbg=117 ctermfg=237 gui=undercurl guifg=NONE guisp={{ theme.grey.grey0 }}
+hi SpellLocal ctermbg=116 ctermfg=237 gui=undercurl guifg=NONE guisp={{ theme.grey.grey0 }}
+hi SignColumn ctermbg=253 ctermfg=248 guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey0 }}
+hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ theme.grey.grey1 }}
+hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ theme.grey.grey1 }}
+hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey1 }}
+" hi VisualNOS ctermbg=251 ctermfg=NONE guibg={{ grey.dark2 }} guifg=NONE
+hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ theme.grey.grey4 }} guifg={{ theme.grey.grey0 }} term=reverse
+hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ theme.grey.grey4 }} guifg={{ theme.grey.grey0 }} term=reverse
+hi TermCursorNC ctermbg=244 ctermfg=254 guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey3 }}
 
 " hi SpecialKey ctermfg=248 guifg=#a5b0d3
 " hi SpellBad ctermbg=181 ctermfg=237 gui=undercurl guifg=NONE guisp={{ red.dark }}

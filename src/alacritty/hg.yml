@@ -1,23 +1,30 @@
 # Colors (Hg)
 colors:
+  search:
+    matches:
+      foreground: '{{theme.grey.grey0}}'
+      background: '{{theme.yellow.yellow0}}'
+    focused_match:
+      foreground: '{{theme.grey.grey0}}'
+      background: '{{theme.yellow.yellow1}}'
   primary:
-    background: '{{grey.normal}}'
-    foreground: '{{grey.dark5}}'
+    background: '{{theme.grey.grey3}}'
+    foreground: '{{theme.grey.grey0}}'
   normal:
-    black: '{{grey.dark5}}'
-    blue: '{{blue.dark}}'
-    cyan: '{{grey.dark5}}'
-    green: '{{green.normal}}'
-    magenta: '{{grey.dark5}}'
-    red: '{{red.normal}}'
-    white: '{{grey.dark5}}'
-    yellow: '{{grey.dark3}}'
+    black: '{{theme.grey.grey0}}'
+    blue: '{{theme.blue.blue0}}'
+    cyan: '{{theme.grey.grey0}}'
+    green: '{{theme.green.green0}}'
+    magenta: '{{theme.grey.grey0}}'
+    red: '{{theme.red.red0}}'
+    white: '{{theme.grey.grey0}}'
+    yellow: '{{theme.yellow.yellow0}}'
   bright:
-    black: '{{grey.dark5}}'
-    blue: '{{blue.dark}}'
-    cyan: '{{grey.dark5}}'
-    green: '{{green.normal}}'
-    magenta: '{{grey.dark5}}'
-    red: '{{red.normal}}'
-    white: '{{grey.dark5}}'
-    yellow: '{{grey.dark3}}'
+    black: '{{theme.grey.grey0}}'
+    blue: '{{theme.blue.blue0}}'
+    cyan: '{{theme.grey.grey0}}'
+    green: '{{theme.green.green0}}'
+    magenta: '{{theme.grey.grey0}}'
+    red: '{{theme.red.red0}}'
+    white: '{{theme.grey.grey0}}'
+    yellow: '{{theme.yellow.yellow0}}'

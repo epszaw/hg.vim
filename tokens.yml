@@ -1,44 +1,20 @@
-bg: 
-  # TODO: probably better to rename tokens by true names and annotate by comments
-  common: '#cccccc'
-  string: '#91BFA3'
-  number: '#95ACD6'
-  constant: '#BA9BC2'
-  selection: '#999999'
-  match: '#FFEE00'
-  rest_matches: '#DBA100'
-  current_line: '#BDBDBD'
+theme:
+  grey:
+    grey0: '#000000' # foreground
+    grey1: '#8A8A8A' # comment
+    grey2: '#AAAAAA' # selection
+    grey3: '#C0C0C0' # background
+    grey4: '#B8B8B8' # current line
+    grey5: '#CFCFCF' # some very bright things, like label for INSERT mode 
+  blue:
+    blue0: '#2C4A83'
+  red:
+    red0: '#9A3E3E'
+    red1: '#FAA6A6'
+  yellow: 
+    yellow0: '#978B78'
+    yellow1: '#FFE8C4'
+  green: 
+    green0: '#2A5B3D'
+    green1: '#9BB8A7'
 
-fg:
-  green: '#10853F'
-  red: '#A32D2D'
-  common: '#000000'
-  comment: '#787878'
-  error: '#FF5C5C'
-
-# New tokens
-grey:
-  dark5: '#000000'
-  dark4: '#555555'
-  dark3: '#767676'
-  dark2: '#9B9B9B'
-  dark1: '#B8B8B8'
-  normal: '#CCCCCC'
-  light1: '#D6D6D6'
-  light2: '#DDDDDD'
-blue:
-  dark: '#32425F'
-  normal: '#476AAB'
-  light: '#98B2E2'
-green:
-  dark: '#19482B'
-  normal: '#3E654D'
-  light: '#9DC0AB'
-red:
-  dark: '#530909'
-  normal: '#9A3E3E'
-  light: '#FAA6A6'
-yellow:
-  dark: '#5F4622'
-  normal: '#C7A97C'
-  light: '#FFE8C5'

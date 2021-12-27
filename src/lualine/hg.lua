@@ -1,41 +1,26 @@
--- Copyright (c) 2020-2021 shadmansaleh
+-- Copyright (c) 2021 lamartire
 -- MIT license, see LICENSE for more details.
--- Genarated by lightline to lualine theme converter
--- https://gist.github.com/shadmansaleh/000871c9a608a012721c6acc6d7a19b9
 -- stylua: ignore
-local colors = {
-  color5   = '{{ grey.dark1 }}',
-  color8   = '{{ grey.dark1 }}',
-  color9   = '{{ grey.dark3 }}',
-  color10  = '{{ bg.current_line }}',
-  color11  = '{{ green.normal }}',
-  color0   = '{{ fg.current_line }}',
-  color1   = '{{ bg.current_line }}',
-  color2   = '{{ bg.constant }}',
-}
 
 return {
   replace = {
-    b = { fg = colors.color0, bg = colors.color1 },
-    a = { fg = colors.color0, bg = colors.color2, gui = 'bold' },
+    a = { fg = '{{ theme.grey.grey5 }}', bg = '{{ theme.blue.blue0 }}', gui = 'bold' },
   },
   visual = {
-    b = { fg = colors.color0, bg = colors.color1 },
-    a = { fg = colors.color0, bg = colors.color5, gui = 'bold' },
+    a = { fg = '{{ theme.grey.grey0 }}', bg = '{{ theme.grey.grey2 }}', gui = 'bold' },
   },
   normal = {
-    b = { fg = colors.color0, bg = colors.color1 },
-    a = { fg = colors.color0, bg = colors.color8, gui = 'bold' },
-    c = { fg = colors.color9, bg = colors.color10 },
+    b = { fg = '{{ theme.grey.grey1 }}', bg = '{{ theme.grey.grey4 }}' },
+    a = { fg = '{{ theme.grey.grey0 }}', bg = '{{ theme.grey.grey4 }}', gui = 'bold' },
+    c = { fg = '{{ theme.grey.grey1 }}', bg = '{{ theme.grey.grey4 }}' },
   },
   inactive = {
-    b = { fg = colors.color9, bg = colors.color10 },
-    a = { fg = colors.color9, bg = colors.color10, gui = 'bold' },
-    c = { fg = colors.color9, bg = colors.color10 },
+    b = { fg = '{{ theme.grey.grey1 }}', bg = '{{ theme.grey.grey4 }}' },
+    a = { fg = '{{ theme.grey.grey0 }}', bg = '{{ theme.grey.grey4 }}', gui = 'bold' },
+    c = { fg = '{{ theme.grey.grey1 }}', bg = '{{ theme.grey.grey4 }}' },
   },
   insert = {
-    b = { fg = colors.color0, bg = colors.color1 },
-    a = { fg = colors.color0, bg = colors.color11, gui = 'bold' },
+    a = { fg = '{{ theme.grey.grey5 }}', bg = '{{ theme.green.green0 }}', gui = 'bold' },
   },
 }
 

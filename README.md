@@ -1,4 +1,4 @@
-# Hg [WIP]
+# Hg
 
 <p align="center">
   <img src="./static/intro.jpg" width="600px" />

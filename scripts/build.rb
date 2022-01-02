@@ -9,18 +9,12 @@ src_files = src_paths.map do |path|
     path: path,
   }
 end
-raw_tokens = File.read('./tokens.yml')
-tokens = YAML.load(raw_tokens)
+raw_config = File.read('./config.yml')
+config = YAML.load(raw_config)
 
 src_files.each do |file|
-  theme_file = Mustache.render(
-    file[:source], fg: tokens['fg'], bg: tokens['bg'],
-    grey: tokens['grey'], red: tokens['red'], blue: tokens['blue'], 
-    green: tokens['green'], yellow: tokens['yellow'],
-    theme: tokens['theme'],
-  )
-
-  theme_path = file[:path].gsub(/src/, 'dist')
+  theme_file = Mustache.render(file[:source], theme: config['theme'])
+  theme_path = file[:path].gsub(/src\//, '')
   theme_dirname = File.dirname(theme_path)
 
   FileUtils.mkdir_p(theme_dirname)

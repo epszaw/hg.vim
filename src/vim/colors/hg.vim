@@ -117,6 +117,7 @@ hi! link rubyInterpolationDelimiter String
 hi! link rubySharpBang Comment
 hi! link rubyStringDelimiter String
 hi! link rubyMethodName Function
+hi! link rubyRegexpSpecial String
 hi! link rustFuncCall Normal
 hi! link rustFuncName Title
 hi! link rustType Constant

@@ -11,7 +11,13 @@
 - Minimalistic color palette
 - Only important things highlight
 
-![hg preview](./static/preview.jpg)
+### Javascript
+
+![](./static/js.png)
+
+### Ruby
+
+![](./static/ruby.png)
 
 ## Install
 

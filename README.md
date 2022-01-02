@@ -1,7 +1,7 @@
 # Hg
 
 <p align="center">
-  <img src="./static/intro.jpg" width="600px" />
+  <img src="./static/intro.jpg" width="450px" />
 </p>
 
 ## Credit

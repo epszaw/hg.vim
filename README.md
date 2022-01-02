@@ -4,19 +4,6 @@
   <img src="./static/intro.jpg" width="600px" />
 </p>
 
-## Color tokens
-
-- Background – #CCCCCC
-- Foreground – #000000
-- String background – #91BFA3
-- Number background – #95ACD6
-- Built-in constants (boolean, keywords, etc.) background – #BA9BC2
-- Comments foreground - #787878
-- Selection background – #B8B8B8
-- Search match – #FFEE00, with current match – #DBA100 
-- Current search match – #FFEE00 
-- Errors - #FF5C5C
-
 ## Credit
 
 Strongly inspired by [alabaster][alabaster].

@@ -229,4 +229,3 @@ hi! link Todo Comment
 if !has('nvim')
   hi! link SpecialKey Whitespace
 endif
-i

@@ -11,14 +11,6 @@
 - Minimalistic color palette
 - Only important things highlight
 
-### Javascript
-
-![](./static/js.png)
-
-### Ruby
-
-![](./static/ruby.png)
-
 ## Install
 
 ### vim
@@ -51,6 +43,16 @@ If you want to contribute, please use colors from `tokens.yml` only.
 
 If you want to contribute or just build your own `hg` option, you should install
 `ruby` and run `ruby ./scripts/build.rb`. Then, use files from `dist` directory.
+
+## Preview
+
+### Javascript
+
+![](./static/js.png)
+
+### Ruby
+
+![](./static/ruby.png)
 
 ## Credit
 

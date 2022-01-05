@@ -56,6 +56,12 @@ If you want to contribute or just build your own `hg` option, you should install
 
 ## Credit
 
-Strongly inspired by [alabaster][alabaster].
+- Strongly inspired by [alabaster][alabaster].
+- Thanks to [cocopon][cocopon] for inspiration by [iceberg.vim][iceberg.vim] theme and awesome
+tools for color scheme development ([inspecthi.vim][inspecthi.vim], [colorswatch.vim][colorswatch.vim])
 
 [alabaster]: https://github.com/tonsky/sublime-scheme-alabaster/
+[cocopon]: https://github.com/cocopon/
+[iceberg.vim]: https://github.com/cocopon/iceberg.vim
+[inspecthi.vim]: https://github.com/cocopon/inspecthi.vim
+[colorswatch.vim]: https://github.com/cocopon/colorswatch.vim

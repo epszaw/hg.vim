@@ -1,7 +1,3 @@
--- Copyright (c) 2021 lamartire
--- MIT license, see LICENSE for more details.
--- stylua: ignore
-
 return {
   replace = {
     a = { fg = '{{ theme.grey.grey5 }}', bg = '{{ theme.blue.blue0 }}', gui = 'bold' },

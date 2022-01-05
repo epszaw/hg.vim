@@ -44,8 +44,8 @@ hi EasyMotionShade ctermfg=250 guifg={{ theme.grey.grey1 }}
 hi EasyMotionTarget ctermfg=64 guifg={{ theme.grey.grey0 }} guibg={{ theme.yellow.yellow1 }}
 " hi EasyMotionTarget2First ctermfg=130 guifg=#c57339
 " hi EasyMotionTarget2Second ctermfg=130 guifg=#c57339
-hi Error ctermbg=254 ctermfg=125 guibg={{ theme.grey.grey3 }} guifg={{ theme.red.red0 }}
-hi ErrorMsg ctermbg=254 ctermfg=125 guibg={{ theme.grey.grey3 }} guifg={{ theme.red.red0 }}
+hi Error ctermbg=254 ctermfg=125 guibg=NONE guifg={{ theme.red.red0 }}
+hi ErrorMsg ctermbg=254 ctermfg=125 guibg=NONE guifg={{ theme.red.red0 }}
 hi WarningMsg ctermbg=254 ctermfg=125 guibg={{ theme.yellow.yellow1 }} guifg={{ theme.grey.grey0 }}
 hi ALEErrorSign ctermbg=253 ctermfg=125 guifg={{ theme.red.red0 }}
 hi ALEWarningSign ctermbg=253 ctermfg=130 guifg={{ theme.yellow.yellow0 }}
@@ -202,7 +202,6 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
-hi! link NvimTreeNormal Comment
 hi! link NvimRootFolder Comment
 hi! link fugitiveCount Normal
 hi! link ngxDirective Statement
@@ -225,6 +224,12 @@ hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
 hi! link Todo Comment
+hi! link NvimInvalidSingleQuotedUnknownEscape Error
+hi! link NvimTreeNormal Normal
+hi! link NvimTreeSpecialFile Normal
+hi! link NvimTreeSymlink Normal
+hi! link NvimTreeRootFolder Normal
+hi! link NvimTreeOpenedFile Normal
 
 if !has('nvim')
   hi! link SpecialKey Whitespace

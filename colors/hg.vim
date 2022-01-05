@@ -44,8 +44,8 @@ hi EasyMotionShade ctermfg=250 guifg=#8A8A8A
 hi EasyMotionTarget ctermfg=64 guifg=#000000 guibg=#FFE8C4
 " hi EasyMotionTarget2First ctermfg=130 guifg=#c57339
 " hi EasyMotionTarget2Second ctermfg=130 guifg=#c57339
-hi Error ctermbg=254 ctermfg=125 guibg=#C0C0C0 guifg=#9A3E3E
-hi ErrorMsg ctermbg=254 ctermfg=125 guibg=#C0C0C0 guifg=#9A3E3E
+hi Error ctermbg=254 ctermfg=125 guibg=NONE guifg=#9A3E3E
+hi ErrorMsg ctermbg=254 ctermfg=125 guibg=NONE guifg=#9A3E3E
 hi WarningMsg ctermbg=254 ctermfg=125 guibg=#FFE8C4 guifg=#000000
 hi ALEErrorSign ctermbg=253 ctermfg=125 guifg=#9A3E3E
 hi ALEWarningSign ctermbg=253 ctermfg=130 guifg=#978B78
@@ -202,7 +202,6 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
-hi! link NvimTreeNormal Comment
 hi! link NvimRootFolder Comment
 hi! link fugitiveCount Normal
 hi! link ngxDirective Statement
@@ -225,6 +224,12 @@ hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
 hi! link Todo Comment
+hi! link NvimInvalidSingleQuotedUnknownEscape Error
+hi! link NvimTreeNormal Normal
+hi! link NvimTreeSpecialFile Normal
+hi! link NvimTreeSymlink Normal
+hi! link NvimTreeRootFolder Normal
+hi! link NvimTreeOpenedFile Normal
 
 if !has('nvim')
   hi! link SpecialKey Whitespace

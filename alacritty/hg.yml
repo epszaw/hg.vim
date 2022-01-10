@@ -2,29 +2,29 @@
 colors:
   search:
     matches:
-      foreground: '#000000'
+      foreground: '#323232'
       background: '#978B78'
     focused_match:
-      foreground: '#000000'
+      foreground: '#323232'
       background: '#FFE8C4'
   primary:
     background: '#C0C0C0'
-    foreground: '#000000'
+    foreground: '#323232'
   normal:
-    black: '#000000'
+    black: '#323232'
     blue: '#2C4A83'
-    cyan: '#000000'
+    cyan: '#323232'
     green: '#2A5B3D'
-    magenta: '#000000'
+    magenta: '#323232'
     red: '#9A3E3E'
     white: '#C0C0C0'
     yellow: '#978B78'
   bright:
-    black: '#000000'
+    black: '#323232'
     blue: '#2C4A83'
-    cyan: '#000000'
+    cyan: '#323232'
     green: '#2A5B3D'
-    magenta: '#000000'
+    magenta: '#323232'
     red: '#9A3E3E'
     white: '#C0C0C0'
     yellow: '#978B78'

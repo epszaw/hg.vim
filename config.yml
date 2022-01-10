@@ -1,6 +1,6 @@
 theme:
   grey:
-    grey0: '#000000' # foreground
+    grey0: '#323232' # foreground
     grey1: '#8A8A8A' # comment
     grey2: '#AAAAAA' # selection
     grey3: '#C0C0C0' # background

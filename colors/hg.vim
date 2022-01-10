@@ -26,13 +26,12 @@ hi Number ctermfg=97 guifg=#2C4A83
 hi String ctermfg=31 guibg=#9BB8A7 guifg=#323232
 hi Folded ctermbg=253 ctermfg=243 guibg=#C0C0C0 guifg=#8A8A8A
 hi FoldColumn ctermbg=253 ctermfg=248 guifg=#8A8A8A
-hi Directory ctermfg=31 guifg=#323232
 hi Function ctermfg=25 guifg=#2C4A83
 hi Search ctermbg=180 ctermfg=94 guibg=#FFE8C4 guifg=#323232
-hi DiffAdd ctermbg=79 ctermfg=23 guifg=#9BB8A7
-hi DiffChange ctermbg=116 ctermfg=24 guifg=#323232
-hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guifg=#FAA6A6
-" hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg=#323232
+hi DiffAdd ctermbg=79 ctermfg=23 guibg=#9BB8A7 guifg=#323232
+hi DiffChange ctermbg=116 ctermfg=24 guibg=#9DB5E0 guifg=#323232
+hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guibg=#FAA6A6 guifg=#323232
+hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#2C4A83 guifg=#323232
 hi diffAdded ctermfg=64 guibg=#9BB8A7 guifg=#323232
 hi diffRemoved ctermfg=125 guibg=#FAA6A6 guifg=#323232
 hi GitGutterAdd ctermbg=253 ctermfg=64 guifg=#2A5B3D
@@ -48,9 +47,9 @@ hi Error ctermbg=254 ctermfg=125 guibg=NONE guifg=#9A3E3E
 hi ErrorMsg ctermbg=254 ctermfg=125 guibg=NONE guifg=#9A3E3E
 hi WarningMsg ctermbg=254 ctermfg=125 guibg=#FFE8C4 guifg=#323232
 hi ALEErrorSign ctermbg=253 ctermfg=125 guifg=#9A3E3E
-hi ALEWarningSign ctermbg=253 ctermfg=130 guifg=#978B78
+hi ALEWarningSign ctermbg=253 ctermfg=130 guifg=#897A63
 hi ALEVirtualTextError ctermfg=125 guifg=#9A3E3E
-hi ALEVirtualTextWarning ctermfg=130 guifg=#978B78
+hi ALEVirtualTextWarning ctermfg=130 guifg=#897A63
 hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg=#AAAAAA guifg=#8A8A8A
 hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#AAAAAA guifg=#8A8A8A
 hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg=#C0C0C0 guifg=#323232
@@ -224,12 +223,16 @@ hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
 hi! link Todo Comment
+hi! link Directory Constant
 hi! link NvimInvalidSingleQuotedUnknownEscape Error
 hi! link NvimTreeNormal Normal
 hi! link NvimTreeSpecialFile Normal
 hi! link NvimTreeSymlink Normal
-hi! link NvimTreeRootFolder Normal
+hi! link NvimTreeRootFolder Comment
 hi! link NvimTreeOpenedFile Normal
+hi! link Conditional Constant
+hi! link Exception Constant
+hi! link htmlSpecialTagName Normal
 
 if !has('nvim')
   hi! link SpecialKey Whitespace

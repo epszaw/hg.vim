@@ -3,7 +3,7 @@ colors:
   search:
     matches:
       foreground: '#323232'
-      background: '#978B78'
+      background: '#897A63'
     focused_match:
       foreground: '#323232'
       background: '#FFE8C4'
@@ -18,7 +18,7 @@ colors:
     magenta: '#323232'
     red: '#9A3E3E'
     white: '#C0C0C0'
-    yellow: '#978B78'
+    yellow: '#897A63'
   bright:
     black: '#323232'
     blue: '#2C4A83'
@@ -27,4 +27,4 @@ colors:
     magenta: '#323232'
     red: '#9A3E3E'
     white: '#C0C0C0'
-    yellow: '#978B78'
+    yellow: '#897A63'

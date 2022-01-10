@@ -26,13 +26,12 @@ hi Number ctermfg=97 guifg={{ theme.blue.blue0 }}
 hi String ctermfg=31 guibg={{ theme.green.green1 }} guifg={{ theme.grey.grey0 }}
 hi Folded ctermbg=253 ctermfg=243 guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey1 }}
 hi FoldColumn ctermbg=253 ctermfg=248 guifg={{ theme.grey.grey1 }}
-hi Directory ctermfg=31 guifg={{ theme.grey.grey0 }}
 hi Function ctermfg=25 guifg={{ theme.blue.blue0 }}
 hi Search ctermbg=180 ctermfg=94 guibg={{ theme.yellow.yellow1 }} guifg={{ theme.grey.grey0 }}
-hi DiffAdd ctermbg=79 ctermfg=23 guifg={{ theme.green.green1 }}
-hi DiffChange ctermbg=116 ctermfg=24 guifg={{ theme.grey.grey0 }}
-hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guifg={{ theme.red.red1 }}
-" hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg={{ theme.grey.grey0 }}
+hi DiffAdd ctermbg=79 ctermfg=23 guibg={{ theme.green.green1 }} guifg={{ theme.grey.grey0 }}
+hi DiffChange ctermbg=116 ctermfg=24 guibg={{ theme.blue.blue1 }} guifg={{ theme.grey.grey0 }}
+hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 guibg={{ theme.red.red1 }} guifg={{ theme.grey.grey0 }}
+hi DffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg={{ theme.blue.blue0 }} guifg={{ theme.grey.grey0 }}
 hi diffAdded ctermfg=64 guibg={{ theme.green.green1 }} guifg={{ theme.grey.grey0 }}
 hi diffRemoved ctermfg=125 guibg={{ theme.red.red1 }} guifg={{ theme.grey.grey0 }}
 hi GitGutterAdd ctermbg=253 ctermfg=64 guifg={{ theme.green.green0 }}
@@ -224,12 +223,16 @@ hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
 hi! link Todo Comment
+hi! link Directory Constant
 hi! link NvimInvalidSingleQuotedUnknownEscape Error
 hi! link NvimTreeNormal Normal
 hi! link NvimTreeSpecialFile Normal
 hi! link NvimTreeSymlink Normal
-hi! link NvimTreeRootFolder Normal
+hi! link NvimTreeRootFolder Comment
 hi! link NvimTreeOpenedFile Normal
+hi! link Conditional Constant
+hi! link Exception Constant
+hi! link htmlSpecialTagName Normal
 
 if !has('nvim')
   hi! link SpecialKey Whitespace

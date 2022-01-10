@@ -8,11 +8,12 @@ theme:
     grey5: '#CFCFCF' # some very bright things, like label for INSERT mode 
   blue:
     blue0: '#2C4A83'
+    blue1: '#9DB5E0'
   red:
     red0: '#9A3E3E'
     red1: '#FAA6A6'
   yellow: 
-    yellow0: '#978B78'
+    yellow0: '#897A63'
     yellow1: '#FFE8C4'
   green: 
     green0: '#2A5B3D'

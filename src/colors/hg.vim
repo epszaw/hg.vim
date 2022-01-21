@@ -12,7 +12,7 @@ let g:colors_name = 'hg'
 let n = 50
 
 " Ready
-hi Normal ctermbg=254 ctermfg=237 guifg={{ theme.grey.grey0 }}
+hi Normal ctermbg=254 ctermfg=237 guifg={{ theme.grey.grey0 }} guibg={{ theme.grey.grey3 }}
 " hi ColorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 " hi CursorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 hi Cursor ctermbg=237 ctermfg=254 guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey4 }}
@@ -50,9 +50,9 @@ hi ALEErrorSign ctermbg=253 ctermfg=125 guifg={{ theme.red.red0 }}
 hi ALEWarningSign ctermbg=253 ctermfg=130 guifg={{ theme.yellow.yellow0 }}
 hi ALEVirtualTextError ctermfg=125 guifg={{ theme.red.red0 }}
 hi ALEVirtualTextWarning ctermfg=130 guifg={{ theme.yellow.yellow0 }}
-hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey1 }}
-hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey1 }}
-hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey0 }}
+hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey0 }}
+hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey2 }}
+hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey5 }}
 hi Delimiter ctermfg=237 guifg={{ theme.grey.grey0 }}
 hi EndOfBuffer ctermfg=251 guifg={{ theme.grey.grey4 }}
 hi NonText ctermfg=251 guifg={{ theme.grey.grey1 }}
@@ -71,13 +71,14 @@ hi Visual ctermbg=251 ctermfg=NONE guibg={{ theme.grey.grey2 }} guifg=NONE
 hi SpellCap ctermbg=117 ctermfg=237 gui=undercurl guifg=NONE guisp={{ theme.grey.grey0 }}
 hi SpellLocal ctermbg=116 ctermfg=237 gui=undercurl guifg=NONE guisp={{ theme.grey.grey0 }}
 hi SignColumn ctermbg=253 ctermfg=248 guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey0 }}
-hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ theme.grey.grey1 }}
-hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ theme.grey.grey1 }}
-hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey1 }}
+hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey0 }} term=reverse
+hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey0 }} term=reverse
+hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ theme.grey.grey0 }}
+hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg={{ theme.grey.grey0 }}
+hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey2 }}
 " hi VisualNOS ctermbg=251 ctermfg=NONE guibg={{ grey.dark2 }} guifg=NONE
-hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ theme.grey.grey4 }} guifg={{ theme.grey.grey0 }} term=reverse
-hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg={{ theme.grey.grey4 }} guifg={{ theme.grey.grey0 }} term=reverse
-hi TermCursorNC ctermbg=244 ctermfg=254 guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey3 }}
+hi TermCursorNC ctermbg=244 ctermfg=254 guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey2 }}
+hi Todo guibg={{ theme.blue.blue1 }} guifg={{ theme.grey.grey0 }}
 
 " hi SpecialKey ctermfg=248 guifg=#a5b0d3
 " hi SpellBad ctermbg=181 ctermfg=237 gui=undercurl guifg=NONE guisp={{ red.dark }}
@@ -95,8 +96,8 @@ hi! link StorageClass Normal
 hi! link Structure Normal
 hi! link Type Normal
 hi! link TermCursor Cursor
-hi! link ToolbarButton TabLineSel
-hi! link ToolbarLine TabLineFill
+" hi! link ToolbarButton TabLineSel
+" hi! link ToolbarLine TabLineFill
 hi! link cssBraces Delimiter
 hi! link cssClassName Special
 hi! link cssClassNameDot Normal
@@ -222,7 +223,6 @@ hi! link StartifyPath Comment
 hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
-hi! link Todo Comment
 hi! link Directory Constant
 hi! link NvimInvalidSingleQuotedUnknownEscape Error
 hi! link NvimTreeNormal Normal

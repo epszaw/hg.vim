@@ -12,7 +12,7 @@ let g:colors_name = 'hg'
 let n = 50
 
 " Ready
-hi Normal ctermbg=254 ctermfg=237 guifg=#323232
+hi Normal ctermbg=254 ctermfg=237 guifg=#323232 guibg=#C0C0C0
 " hi ColorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 " hi CursorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 hi Cursor ctermbg=237 ctermfg=254 guibg=#323232 guifg=#B8B8B8
@@ -50,9 +50,9 @@ hi ALEErrorSign ctermbg=253 ctermfg=125 guifg=#9A3E3E
 hi ALEWarningSign ctermbg=253 ctermfg=130 guifg=#897A63
 hi ALEVirtualTextError ctermfg=125 guifg=#9A3E3E
 hi ALEVirtualTextWarning ctermfg=130 guifg=#897A63
-hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg=#AAAAAA guifg=#8A8A8A
-hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#AAAAAA guifg=#8A8A8A
-hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg=#C0C0C0 guifg=#323232
+hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg=#AAAAAA guifg=#323232
+hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#AAAAAA guifg=#AAAAAA
+hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg=#323232 guifg=#CFCFCF
 hi Delimiter ctermfg=237 guifg=#323232
 hi EndOfBuffer ctermfg=251 guifg=#B8B8B8
 hi NonText ctermfg=251 guifg=#8A8A8A
@@ -71,13 +71,14 @@ hi Visual ctermbg=251 ctermfg=NONE guibg=#AAAAAA guifg=NONE
 hi SpellCap ctermbg=117 ctermfg=237 gui=undercurl guifg=NONE guisp=#323232
 hi SpellLocal ctermbg=116 ctermfg=237 gui=undercurl guifg=NONE guisp=#323232
 hi SignColumn ctermbg=253 ctermfg=248 guibg=#C0C0C0 guifg=#323232
-hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#8A8A8A
-hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#8A8A8A
-hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg=#C0C0C0 guifg=#8A8A8A
+hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#AAAAAA guifg=#323232 term=reverse
+hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#AAAAAA guifg=#323232 term=reverse
+hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#323232
+hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guifg=#323232
+hi VertSplit cterm=NONE ctermbg=251 ctermfg=251 gui=NONE guibg=#C0C0C0 guifg=#AAAAAA
 " hi VisualNOS ctermbg=251 ctermfg=NONE guibg= guifg=NONE
-hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#B8B8B8 guifg=#323232 term=reverse
-hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#B8B8B8 guifg=#323232 term=reverse
-hi TermCursorNC ctermbg=244 ctermfg=254 guibg=#323232 guifg=#C0C0C0
+hi TermCursorNC ctermbg=244 ctermfg=254 guibg=#323232 guifg=#AAAAAA
+hi Todo guibg=#9DB5E0 guifg=#323232
 
 " hi SpecialKey ctermfg=248 guifg=#a5b0d3
 " hi SpellBad ctermbg=181 ctermfg=237 gui=undercurl guifg=NONE guisp=
@@ -95,8 +96,8 @@ hi! link StorageClass Normal
 hi! link Structure Normal
 hi! link Type Normal
 hi! link TermCursor Cursor
-hi! link ToolbarButton TabLineSel
-hi! link ToolbarLine TabLineFill
+" hi! link ToolbarButton TabLineSel
+" hi! link ToolbarLine TabLineFill
 hi! link cssBraces Delimiter
 hi! link cssClassName Special
 hi! link cssClassNameDot Normal
@@ -222,7 +223,6 @@ hi! link StartifyPath Comment
 hi! link StartifySection Statement
 hi! link StartifySlash Comment
 hi! link StartifySpecial Normal
-hi! link Todo Comment
 hi! link Directory Constant
 hi! link NvimInvalidSingleQuotedUnknownEscape Error
 hi! link NvimTreeNormal Normal

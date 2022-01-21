@@ -6,14 +6,14 @@ return {
     a = { fg = '#323232', bg = '#AAAAAA', gui = 'bold' },
   },
   normal = {
-    b = { fg = '#8A8A8A', bg = '#B8B8B8' },
-    a = { fg = '#323232', bg = '#B8B8B8', gui = 'bold' },
-    c = { fg = '#8A8A8A', bg = '#B8B8B8' },
+    b = { fg = '#323232', bg = '#AAAAAA' },
+    a = { fg = '#CFCFCF', bg = '#323232', gui = 'bold' },
+    c = { fg = '#323232', bg = '#AAAAAA' },
   },
   inactive = {
-    b = { fg = '#8A8A8A', bg = '#B8B8B8' },
-    a = { fg = '#323232', bg = '#B8B8B8', gui = 'bold' },
-    c = { fg = '#8A8A8A', bg = '#B8B8B8' },
+    b = { fg = '#323232', bg = '#AAAAAA' },
+    a = { fg = '#323232', bg = '#AAAAAA', gui = 'bold' },
+    c = { fg = '#323232', bg = '#AAAAAA' },
   },
   insert = {
     a = { fg = '#CFCFCF', bg = '#2A5B3D', gui = 'bold' },

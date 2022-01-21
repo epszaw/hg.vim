@@ -26,6 +26,11 @@ use { "lamartire/hg.vim" }
 Just insert [`alacritty/hg.yml`](./alacritty/hg.yml) content to your 
 `.config/alacritty/alacritty.yml` file.
 
+### kitty
+
+Just insert [`kitty/hg.conf`](./kitty/hg.conf) content to your 
+`.config/kitty/kitty.conf` file.
+
 ### tmux
 
 At this moment I'm working on `tpm` plugin, but you can install it manually,

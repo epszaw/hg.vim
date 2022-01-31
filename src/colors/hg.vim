@@ -12,7 +12,8 @@ let g:colors_name = 'hg'
 let n = 50
 
 " Ready
-hi Normal ctermbg=254 ctermfg=237 guifg={{ theme.grey.grey0 }} guibg={{ theme.grey.grey3 }}
+hi Normal ctermbg=254 ctermfg=237 guifg={{ theme.grey.grey0 }}
+hi Title ctermbg=254 ctermfg=237 guifg={{ theme.grey.grey0 }} guibg=NONE
 " hi ColorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 " hi CursorColumn cterm=NONE ctermbg=253 ctermfg=NONE guibg=#dcdfe7 guifg=NONE
 hi Cursor ctermbg=237 ctermfg=254 guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey4 }}
@@ -52,7 +53,7 @@ hi ALEVirtualTextError ctermfg=125 guifg={{ theme.red.red0 }}
 hi ALEVirtualTextWarning ctermfg=130 guifg={{ theme.yellow.yellow0 }}
 hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey0 }}
 hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg={{ theme.grey.grey2 }} guifg={{ theme.grey.grey2 }}
-hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg={{ theme.grey.grey0 }} guifg={{ theme.grey.grey5 }}
+hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg={{ theme.grey.grey3 }} guifg={{ theme.grey.grey0 }}
 hi Delimiter ctermfg=237 guifg={{ theme.grey.grey0 }}
 hi EndOfBuffer ctermfg=251 guifg={{ theme.grey.grey4 }}
 hi NonText ctermfg=251 guifg={{ theme.grey.grey1 }}
@@ -84,7 +85,6 @@ hi Todo guibg={{ theme.blue.blue1 }} guifg={{ theme.grey.grey0 }}
 " hi SpellBad ctermbg=181 ctermfg=237 gui=undercurl guifg=NONE guisp={{ red.dark }}
 " hi SpellRare ctermbg=110 ctermfg=237 gui=undercurl guifg=NONE guisp=#7759b4
 
-hi! link Title Normal
 hi! link QuickFixLine Normal
 hi! link PreProc Normal
 hi! link Question Normal
@@ -94,7 +94,7 @@ hi! link Special Normal
 hi! link Statement Normal
 hi! link StorageClass Normal
 hi! link Structure Normal
-hi! link Type Normal
+hi! link Type Number
 hi! link TermCursor Cursor
 " hi! link ToolbarButton TabLineSel
 " hi! link ToolbarLine TabLineFill
@@ -105,8 +105,10 @@ hi! link cssPseudoClassId Special
 hi! link cssTagName Statement
 hi! link helpHyperTextJump Constant
 hi! link htmlArg Normal
-hi! link htmlEndTag Statement
-hi! link htmlTag Statement
+hi! link htmlEndTag Normal
+hi! link htmlTag Normal
+hi! link htmlTagName Number
+hi! link htmlSpecialTagName Number
 hi! link jsonQuote Normal
 hi! link jsonBraces Normal
 hi! link phpVarSelector Identifier
@@ -232,7 +234,6 @@ hi! link NvimTreeRootFolder Comment
 hi! link NvimTreeOpenedFile Normal
 hi! link Conditional Constant
 hi! link Exception Constant
-hi! link htmlSpecialTagName Normal
 
 if !has('nvim')
   hi! link SpecialKey Whitespace

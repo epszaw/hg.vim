@@ -19,12 +19,3 @@ colors:
     red: '#9A3E3E'
     white: '#C0C0C0'
     yellow: '#897A63'
-  bright:
-    black: '#323232'
-    blue: '#2C4A83'
-    cyan: '#323232'
-    green: '#2A5B3D'
-    magenta: '#323232'
-    red: '#9A3E3E'
-    white: '#C0C0C0'
-    yellow: '#897A63'

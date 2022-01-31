@@ -19,12 +19,3 @@ colors:
     red: '{{theme.red.red0}}'
     white: '{{theme.grey.grey3}}'
     yellow: '{{theme.yellow.yellow0}}'
-  bright:
-    black: '{{theme.grey.grey0}}'
-    blue: '{{theme.blue.blue0}}'
-    cyan: '{{theme.grey.grey0}}'
-    green: '{{theme.green.green0}}'
-    magenta: '{{theme.grey.grey0}}'
-    red: '{{theme.red.red0}}'
-    white: '{{theme.grey.grey3}}'
-    yellow: '{{theme.yellow.yellow0}}'
